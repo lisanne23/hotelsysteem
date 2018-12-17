@@ -4,3 +4,6 @@ D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.csproj
 D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.csproj.CoreCompileInputs.cache
 D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.dll
 D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.pdb
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\bin\Debug\domain.dll
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\bin\Debug\domain.pdb
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.csproj.CopyComplete

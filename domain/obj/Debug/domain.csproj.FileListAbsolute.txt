@@ -1,0 +1,6 @@
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\domain\bin\Debug\domain.dll
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\domain\bin\Debug\domain.pdb
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\domain\obj\Debug\domain.csprojResolveAssemblyReference.cache
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\domain\obj\Debug\domain.csproj.CoreCompileInputs.cache
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\domain\obj\Debug\domain.dll
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\domain\obj\Debug\domain.pdb

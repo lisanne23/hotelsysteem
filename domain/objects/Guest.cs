@@ -13,5 +13,23 @@ namespace domain.objects
         public string Adress { get; private set; }
         public DateTime BirthDate { get; private set; }
         public AcceptedGender AcceptedGender { get; private set; }
+
+        public Guest(string name)
+        {
+            Name = name;
+        }
+
+        public Guest(string name, string adress, DateTime birthDate, AcceptedGender acceptedGender)
+        {
+            Name = name;
+            Adress = adress;
+            BirthDate = birthDate;
+            AcceptedGender = acceptedGender;
+        }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

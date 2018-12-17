@@ -46,16 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="forms\Form1.cs">
+    <Compile Include="controller\ReservationsController.cs" />
+    <Compile Include="forms\Form_Reservations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="forms\Form_Reservations.Designer.cs">
+      <DependentUpon>Form_Reservations.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="forms\Form_Reservations.resx">
+      <DependentUpon>Form_Reservations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,13 +81,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\domain\domain.csproj">
+      <Project>{27C0DF1C-F22F-4E84-B91B-73822EB79B33}</Project>
+      <Name>domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\logic\logic.csproj">
       <Project>{d814bcbb-2365-4f78-a4b0-c203517ba1d2}</Project>
       <Name>logic</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
