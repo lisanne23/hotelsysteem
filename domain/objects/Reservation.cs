@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace domain.objects
 {
-    class Reservation
+    public class Reservation
     {
-        public Guest Guest { get; private set; }
-        public int AmountPeople { get; private set; }
+        public IEnumerable<Guest> Guests { get; private set; }
 
-        public Reservation(Guest guest, int amountPeople)
+        public Reservation(IEnumerable<Guest> guests)
         {
-            Guest = guest;
-            AmountPeople = amountPeople;
+            Guests = guests;
         }
     }
 }

@@ -6,18 +6,13 @@ using System.Threading.Tasks;
 
 namespace domain.objects
 {
-    class RoomReservation
+    public class RoomReservation : Reservation
     {
-        public Room room { get; private set; }
-        public DateTime StartDate { get; private set; }
+        public Room Room { get; private set; }
 
-        public DateTime EndDate { get; private set; }
-
-        public RoomReservation(Room room, DateTime startDate, DateTime endDate)
+        public RoomReservation(IEnumerable<Guest> guests, Room room) : base(guests)
         {
-            this.room = room;
-            StartDate = startDate;
-            EndDate = endDate;
+            Room = room;
         }
     }
 }

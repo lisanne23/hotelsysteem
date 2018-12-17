@@ -80,10 +80,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\domain\domain.csproj">
-      <Project>{0eb9b646-c502-40ba-9189-c5cdf3fd93e8}</Project>
-      <Name>domain</Name>
-    </ProjectReference>
     <ProjectReference Include="..\logic\logic.csproj">
       <Project>{d814bcbb-2365-4f78-a4b0-c203517ba1d2}</Project>
       <Name>logic</Name>

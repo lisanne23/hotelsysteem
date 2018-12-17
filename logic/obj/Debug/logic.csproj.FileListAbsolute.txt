@@ -1,0 +1,6 @@
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\bin\Debug\logic.dll
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\bin\Debug\logic.pdb
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.csprojResolveAssemblyReference.cache
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.csproj.CoreCompileInputs.cache
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.dll
+D:\Projects - Hard Drive\Fontys\Bijles\hotelsysteem\logic\obj\Debug\logic.pdb

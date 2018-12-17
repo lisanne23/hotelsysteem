@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0EB9B646-C502-40BA-9189-C5CDF3FD93E8}</ProjectGuid>
+    <ProjectGuid>{27C0DF1C-F22F-4E84-B91B-73822EB79B33}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>domain</RootNamespace>
@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="emums\AcceptedGender.cs" />
     <Compile Include="objects\Guest.cs" />
+    <Compile Include="emums\LunchType.cs" />
     <Compile Include="objects\Reservation.cs" />
     <Compile Include="objects\RestaurantReservation.cs" />
     <Compile Include="objects\Room.cs" />
