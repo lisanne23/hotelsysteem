@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp_HotelSysteem", "WindowsFormsApp_HotelSysteem\WindowsFormsApp_HotelSysteem.csproj", "{E3DB8D6F-311C-426E-BD37-3DEEA958400F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "domain\domain.csproj", "{0EB9B646-C502-40BA-9189-C5CDF3FD93E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logic", "logic\logic.csproj", "{D814BCBB-2365-4F78-A4B0-C203517BA1D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E3DB8D6F-311C-426E-BD37-3DEEA958400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3DB8D6F-311C-426E-BD37-3DEEA958400F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3DB8D6F-311C-426E-BD37-3DEEA958400F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB9B646-C502-40BA-9189-C5CDF3FD93E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB9B646-C502-40BA-9189-C5CDF3FD93E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB9B646-C502-40BA-9189-C5CDF3FD93E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB9B646-C502-40BA-9189-C5CDF3FD93E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D814BCBB-2365-4F78-A4B0-C203517BA1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D814BCBB-2365-4F78-A4B0-C203517BA1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D814BCBB-2365-4F78-A4B0-C203517BA1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D814BCBB-2365-4F78-A4B0-C203517BA1D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
